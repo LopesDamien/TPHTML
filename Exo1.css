@@ -1,0 +1,17 @@
+div#bandeau {
+	width:1000px;
+	height:100px;
+	background-color:#00CCFF;
+	}
+div#contenu {
+	width:1000px;
+	height:400px;
+	background-color:#FFCC00;
+    
+	}
+div#piedpage {
+	width:1000px;
+	height:100px;
+	background-color:#33FF99;
+	}
+    
