@@ -1,0 +1,40 @@
+div#bandeau {
+    width:1000px;
+    height:75px;
+    background-color:#00CCFF;
+    text-align: center;
+    padding-top: 50px;
+    }
+div#contenu {
+    width:1000px;
+    height:400px;
+    background-color:#FFCC00;
+    text-align: center;
+    
+    
+    
+    }
+div#piedpage {
+    width:1000px;
+    height:100px;
+    background-color:#33FF99;
+    text-align: center;
+    
+    }
+    div#Menuhaut {
+        width:100px;
+        height:200px;
+        background-color: rgb(42, 165, 93);
+        float: left;
+
+    }
+div#Menubas {
+    width: 100px;
+    height:200px;
+    background-color: blueviolet;
+    float: left;
+
+
+
+}
+    
