@@ -1,12 +1,12 @@
 div {
 	text-align:center;
 	}
-    div.bandeau {
+    div#bandeau {
         width:600px;
         height:50px;
         background-color:#00CCFF;
         }
-    div.contenu {
+    div#contenu {
         width:600px;
         height:400px;
         background-color:#FFCC00;
@@ -34,9 +34,9 @@ div {
         height:200px;
         background-color:#CC99CC;
         }
-    div#blocnews {
+     div#blocnews {
         float:right;
         width:150px;
         height:150px;
-        background-color:#FF3300;
-        }
+         background-color:#FF3300;
+         }
