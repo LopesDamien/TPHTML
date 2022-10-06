@@ -1,32 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formulaire</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='formlaire.css'>
+    <script src='main.js'></script>
 </head>
 <body>
-  <fieldset>
+    <style>
+
+        .lol {
+            padding-right: 62px;
+         
+        }
+        
+        .er{
+            padding-right: 79px;
+        }
+        
+        .err{
+            padding-right: 61px;
+        }
+        
+        .errr{
+            padding-right: 45px;
+        }
+        .errrr{
+            padding-right: 79px;
+        }
+        </style>
+
+    <div class="Carré" style="width: 600px; margin: auto; padding: 10px; border : 3px solid black;" >
 <div>
-    Civilité: &nbsp; &nbsp; &nbsp; &nbsp; <input type="radio" id="huey" name="drone" value="huey"
-    checked>
-    <label for="huey">Mr</label>
+Civilité:    
+     <label class="lol" for="huey"></label>Mr
     <input type="radio" id="huey" name="drone" value="huey"
     checked>
+    
     <label for="huey">Mme ou Mlle</label>
+    <input type="radio" id="huey" name="drone" value="huey"
+    checked>
     
 </div>
 <p></p>
-Nom: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <label for="name"></label>
+Nom: <label class="er" for="name"></label>
 
 <input type="text" id="name" name="name" required
- minlength="4" maxlength="8" size="15">
+ minlength="1" maxlength="20" size="15">
 <p></p>
- Prénom: &nbsp; &nbsp; &nbsp; &nbsp;<label for="name"></label>
+ Prénom: <label class="err" for="name"></label>
 
  <input type="text" id="name" name="name" required
-  minlength="4" maxlength="8" size="15">
+  minlength="1" maxlength="20" size="15">
  <p></p>
 Date de naissance 
 
@@ -80,31 +107,30 @@ Date de naissance
 <option value="Décembre">Décembre</option>
 </select>
 Année <input type="text" id="name" name="name" required
-minlength="4" maxlength="8" size="15">
+minlength="1" maxlength="20" size="15">
 <p></p>
-Numéro: <input type="text" id="name" name="name" required
-minlength="4" maxlength="8" size="10">
+<p style='padding-left : 119px'> Numéro: <input type="text" id="name" name="name" required
+minlength="1" maxlength="20" size="10">
 Rue<input type="text" id="name" name="name" required
-minlength="4" maxlength="8" size="10">
+minlength="1" maxlength="20" size="10"></p>
 <p></p>
 Adresse:
 <p></p>
 
-Code postal <input type="text" id="name" name="name" required
-minlength="4" maxlength="8" size="10">
-Ville  <input type="text" id="name" name="name" required
-minlength="4" maxlength="8" size="10">
+<p style='padding-left : 119px'>Code postal<input type="text" id="name" name="name" required
+minlength="1" maxlength="20" size="10"> 
+Ville  <input  type="text" id="name" name="name" required
+minlength="1" maxlength="20" size="10"></p>
 <p></p>
-Téléphone:  <input type="text" id="name" name="name" required
-minlength="4" maxlength="8" size="10">
+Téléphone: <label class="errr" for="name"></label><input class="errr" type="text" id="name" name="name" required
+minlength="1" maxlength="20" size="10">
 <p></p>
-Email  <input type="text" id="name" name="name" required
-minlength="4" maxlength="8" size="10">
+Email <label class="errrr" for="name"></label> <input type="text" id="name" name="name" required
+minlength="1" maxlength="20" size="10">
 <p></p>
 <input type="submit" value="envoyer"> <input type="submit" value="Remise à zéro">
 
-
-  </fieldset>
+</div>
 
 </body>
 </html>
